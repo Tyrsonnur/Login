@@ -1,0 +1,108 @@
+* { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url(Fondo.png)
+}
+
+.cuadro1{
+    border: 1px transparent #535252;
+    padding: 15px;
+    width: 350px;
+    height: 235px;
+    background-color: #fdfdfd;
+    margin-top: 115px;
+    padding: 44px;
+}
+
+.cuadro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px transparent #535252;
+    padding: 15px;
+    width: 408px;
+    height: 15px;
+    background-color: #fdfdfd;
+    margin-top: 10px;
+}
+
+
+.parrafo1{
+    font-size: smaller;
+}
+
+.link1{
+    font-size: smaller;
+}
+
+.botones{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+    padding-top: 13px;
+    max-width: 100%;
+    min-width: 108px;
+}
+
+.Opciones{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+}
+
+.boton-atras{
+    background-color: #00000033;
+    border: #00000033;
+}
+
+.boton-siguiente{
+    background-color: #0067b8;
+    color: #fdfdfd;
+    border: #0067b8;
+    margin-left: 10px;
+
+}
+
+body{
+    background: url(Fondo.png);
+}
+
+img {
+    height: 24px
+    
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 200px;
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid gray;
+    padding: 6px, 10px, 8px,0px;
+}
+
+input:focus-visible{
+    outline: none
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    height: 33px;
+    width: 105px;
+
+}
